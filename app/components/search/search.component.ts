@@ -6,9 +6,7 @@ import {SpotifyService} from '../../services/spotify.service';
     moduleId: module.id,
     selector: 'search',
     templateUrl: 'search.component.html',
-    providers: [SpotifyService, useFactory:()=>{
-        
-    }]
+    providers: [SpotifyService]
 })
 
 export class SearchComponent {

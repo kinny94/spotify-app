@@ -23,8 +23,7 @@ var SearchComponent = (function () {
             moduleId: module.id,
             selector: 'search',
             templateUrl: 'search.component.html',
-            providers: [spotify_service_1.SpotifyService, useFactory, function () {
-                }]
+            providers: [spotify_service_1.SpotifyService]
         }), 
         __metadata('design:paramtypes', [spotify_service_1.SpotifyService])
     ], SearchComponent);
